@@ -1,5 +1,5 @@
 import './globals.css'
-import "bootswatch/dist/cosmo/bootstrap.min.css"
+import "bootswatch/dist/darkly/bootstrap.min.css"
 import NavBar from '@/components/NavBar'
 
 
@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body >
+            <body>
                 <NavBar />
                 {children}
             </body>

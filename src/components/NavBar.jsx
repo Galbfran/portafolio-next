@@ -2,7 +2,7 @@ import Link from "next/link"
 
 const NavBar = () => {
     return (
-        <nav className="navbar navbar-expand-lg bg-black " data-bs-theme="dark">
+        <nav className="navbar navbar-expand-lg bg-light" data-bs-theme="light">
             <div className="container d-flex">
                 <Link href="/" className="navbar-brand">Galbiati Franco</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
